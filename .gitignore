@@ -18,7 +18,9 @@ __pycache__/
 .idea/
 *.swp
 *.swo
-
+# Temorary files
+*.tmp
+*~
 # TODO: Students should add the following:
 # - Temporary files (*.tmp, *~)
 # - Output directories (results/, output/)

@@ -162,8 +162,9 @@ echo "There are $entry_count Kinase hits"
 #Analysis Summary
 
 touch ../results/analysis_summary.txt
-echo "The total number of sequences in the FASTA file is: $extracted_count" ../results/analysis_summary.txt
-echo "The counted high quality scaffolds among the sequences is: $sequence_count" ../results/analysis_summary.txt
-echo "The counted protein entries in the database is: $entry_count"
+echo "The total number of sequences in the FASTA file is: $extracted_count" >  ../results/analysis_summary.txt
+echo "The counted high quality scaffolds among the sequences is: $sequence_count" >> ../results/analysis_summary.txt
+echo "The counted protein entries in the database is: $entry_count" >> ../results/analysis_summary.txt
+date >> ../results/analysis_summary.txt
 
 echo "ANALYSIS DONE"

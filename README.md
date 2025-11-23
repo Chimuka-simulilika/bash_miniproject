@@ -4,8 +4,8 @@
 **Name**: Chimuka Simulilika
 **Student ID**: MB300-0005/2025
 **Course**: PUB 3127 - Computing for Biologists
-**Date Started**: [TODO: Date you started the project]
-**Date Completed**: [TODO: Date you completed the project]
+**Date Started**: 21-11-2025
+**Date Completed**: 23-11-2025
 
 ---
 
@@ -67,8 +67,6 @@ The `Data/` directory contains:
 
 ### Running the Scripts
 
-[TODO: Add detailed instructions for each script as you create them. Example format below:]
-
 #### Script 1: Extract Headers
 ```bash
 ./scripts/extract_headers.sh
@@ -111,7 +109,6 @@ The `Data/` directory contains:
 **Purpose**: Searches for proteins matching a keyword
 **Output**: `results/protein_search_results.txt` - Matching protein entries
 
-[TODO: Update the purpose and output descriptions based on your actual implementations]
 
 ### Running the Master Script
 ```bash
@@ -122,33 +119,30 @@ The `Data/` directory contains:
 - All result files from individual scripts
 - `results/analysis_summary.txt` - Summary of all analyses with counts and timestamp
 
-[TODO: Verify the above descriptions match your actual implementation]
 
 ---
 
 ## Analysis Results Summary
 
-[TODO: Fill this section in after completing your analyses. Answer these questions:]
 
 ### FASTA File Analysis
-- **Total number of sequences**: [TODO]
-- **Longest sequence**: [TODO: NODE_X with length and coverage]
-- **Number of sequences with length >= 5000**: [TODO]
-- **Number of high-quality scaffolds** (length >= 10000, coverage >= 5.0): [TODO]
+- **Total number of sequences**: 35079
+- **Longest sequence**: NODE_1, length:21257 and Coverage:6.323607
+- **Number of sequences with length >= 5000**: 283
+- **Number of high-quality scaffolds** (length >= 10000, coverage >= 5.0): 33
 
 ### Protein Database Analysis
-- **Total protein entries**: [TODO]
-- **Number of unique genes**: [TODO]
-- **Example protein search result** (e.g., for "kinase"): [TODO: number of matches]
+- **Total protein entries**: 890
+- **Number of unique genes**: 888
+- **Example protein search result** (e.g., for "kinase"): search for kinase containing proteins
 
-### Key Findings
-[TODO: Write 2-3 sentences about interesting observations from your analysis]
+### Key Findings:
+
+The key findings where the total number of sequences in the FASTA file provided in the Data directory, identified that longest sequence stating its length and node.Also analysed the number of protein entries contained in the Data file of proteins and identified the number of unique genes.
 
 ---
 
 ## Scripts Description
-
-[TODO: Provide a brief description of each script. Example format below:]
 
 | Script Name | Purpose | Key Commands Used |
 |-------------|---------|-------------------|
@@ -164,23 +158,23 @@ The `Data/` directory contains:
 
 ## Challenges and Solutions
 
-[TODO: Document any challenges you faced and how you solved them. This shows your problem-solving process. Example:]
+I faced a challenge tring to push because of a large files. After numerouse trials of debuging, i rested the git and began from my previous commit before i run into the error/problem.
 
-**Challenge 1**: [TODO: Describe a problem you encountered]
-**Solution**: [TODO: Describe how you solved it]
+**Challenge 1**: Error in pushinh to git main
+**Solution**: Reset git
 
-**Challenge 2**: [TODO]
-**Solution**: [TODO]
+**Challenge 2**:
+**Solution**: 
 
 ---
 
 ## What I Learned
-
-[TODO: Write a brief reflection (3-5 sentences) about what you learned from this project. Consider:]
-- New bash commands or concepts you learned
-- How command-line tools can be useful for bioinformatics
-- Any insights about version control with Git
-- How this project relates to your research interests
+- I learnt how to begin the master script
+- I lerant how join different commands creating a working script
+- I learnt a number of debuging tricks
+- I learnt how to analyse bioinformatics data sets using the command line
+- I learnt how to interact with the command line and git
+- Overall, this project has given me a good insight of analysing biological data in bash and this will help in my research project
 
 ---
 
@@ -199,6 +193,6 @@ This project is for educational purposes as part of PUB 3127 coursework.
 ---
 
 ## Acknowledgments
-- **Instructor**: [TODO: Your instructor's name]
-- **Institution**: [TODO: Your university/institution name]
-- Data sources: [Sequencing data and UniProt database]
+- **Instructor**: Dr Caleb Kibet
+- **Institution**: PAUSTI
+- Data sources:Sequencing data and UniProt database
